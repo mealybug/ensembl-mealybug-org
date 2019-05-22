@@ -1,4 +1,4 @@
-package EG::GenomeHubs::SiteDefs;
+package EG::MealyBugBase::SiteDefs;
 
 use strict;
 
