@@ -19,7 +19,7 @@ sub update_conf {
 
   $SiteDefs::ASSEMBLY_GROUP_A = [
           'Planococcus_citri_pcitriv1',
-          'Planococcus_citri_pcitriv0',
+          'Planococcus_ficus_pficusv0',
           'Acyrthosiphon_pisum',
           'Rhodnius_prolixus'
   ];
