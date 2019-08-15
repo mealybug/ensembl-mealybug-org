@@ -4,7 +4,7 @@ use strict;
 
 
 sub update_conf {
-  push @$SiteDefs::ENSEMBL_API_LIBS, $SiteDefs::ENSEMBL_SERVERROOT . '/ensembl.mealybug/modules';
+  push @$SiteDefs::ENSEMBL_API_LIBS, $SiteDefs::ENSEMBL_SERVERROOT . '/ensembl-mealybug-org/modules';
 
   $SiteDefs::SITE_LOGO = 'mealybugbase.png';
   $SiteDefs::SITE_LOGO_WIDTH = 150;
@@ -15,12 +15,12 @@ sub update_conf {
   $SiteDefs::ISSUE_TRACKER_URL = 'https://github.com/genomehubs/genomehubs/issues?status=new&status=open';
   $SiteDefs::ISSUE_TRACKER_TITLE = 'report an issue';
 
-  $SiteDefs::ENSEMBL_SERVERADMIN = 'contact&#064;lepbase.org';
+  $SiteDefs::ENSEMBL_SERVERADMIN = 'mealybug&#064;genomehubs.org';
 
   $SiteDefs::ASSEMBLY_GROUP_A = [
           'Planococcus_citri_pcitriv1',
           'Planococcus_ficus_pficusv0',
-          'Pseudococcus_longispinus_v1'
+          'Pseudococcus_longispinus_plongv1'
   ];
   $SiteDefs::ASSEMBLY_GROUP_A_TITLE = 'Mealybug assemblies';
   $SiteDefs::ASSEMBLY_GROUP_A_TEMPLATE = '_fav_template';
@@ -34,9 +34,9 @@ sub update_conf {
   $SiteDefs::ASSEMBLY_GROUP_B_TEMPLATE = '_list_template';
   $SiteDefs::ASSEMBLY_GROUP_C = [
           'Acyrthosiphon_pisum',
-          'Bemisia_tabaci_MEAM1_v1x1',
+          'Bemisia_tabaci_MEAM1v1x1',
           'Rhodnius_prolixus',
-          'Myzus_persicae_CloneG006_v2'
+          'Myzus_persicae_CloneG006v2'
   ];
   $SiteDefs::ASSEMBLY_GROUP_C_TITLE = 'Other Hemiptera';
   $SiteDefs::ASSEMBLY_GROUP_C_TEMPLATE = '_fav_template';
